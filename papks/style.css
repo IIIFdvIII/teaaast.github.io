@@ -1,0 +1,366 @@
+.row{
+	text-align: center;
+
+}
+
+.nav-item  {
+	color: green;
+	color: black;
+
+}
+
+
+
+
+.first_car{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+	
+}
+.first_car img{
+	margin-bottom: 0;
+width: 100%;
+}
+
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#F97300;
+	margin: 2em;
+}
+
+.first_car h2{
+	margin-bottom: 0.5em;
+	line-height: 1em;
+}
+
+
+.middle_car{
+margin-top: : 7em 0;
+	padding: 1em;
+	position: relative;	
+	 
+}
+
+
+.middle_car h2{
+
+	margin-bottom: 0em;
+	line-height: 1.5em;
+}
+
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+
+	
+}
+.about .desc{
+	padding: 2em;
+	
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+
+
+.card-img{
+	height: 350px;
+}
+
+body {
+	height: 6500px;
+	background-color: white; 
+}
+
+
+.navbar-toggler{
+	background-color: ;
+}
+
+ .parallax-window { min-height: 400px; background: transparent; } 
+
+.p-0 {
+	padding: 0; 
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	height: 2.5em;
+	width: 2.5em;
+}
+
+
+.main{
+	margin-top: 3rem;
+}
+/* ГЛАВНЫЕ БЛОКИ =================================*/
+#cont1 {
+	height: 700px;
+	background-color: #969595;
+}
+
+#cont2 {
+	min-height: 1000px;
+	min-height: 900px;
+	background-color: #ffffff;
+}
+#cont3 {
+	min-height: 600px;
+	max-height: 900px;
+	background-color: #FF9800;
+}
+#cont4 {
+	min-height: 1000px;
+	max-height: 3000px;
+	background-color: #949494;
+}
+#cont5 {
+	min-height: 400px;
+	max-height: 1000px;
+	background-color: white;
+}
+#cont6 {
+	min-height: 500px;
+	max-height: 1000px;
+	background-color: green;
+}
+
+.navbar{
+	   opacity: 0.8;  /*========================================ПРОЗРАЧНОСТЬ МЕНЮ */
+}
+.navbar a {      /* ссылки (т.е ЛОГОТИП в данном примере)  */
+	color:white;
+	font-size: 20px;
+	
+	/*padding-right: 50px;
+	padding-left: 50px;  */
+}
+
+.navbar li {          /* Слова в навигации  */
+padding-right: 2em;
+padding-left: 2em; 
+}
+
+.dropdown-menu.show {
+
+}
+
+#contheader{
+	height: 70px;
+}
+
+h5 {
+	color:white;
+	
+}
+
+.carousel-item img {
+	
+}
+
+
+
+
+.inf_o_spiske button {
+	margin-top: 50px;
+}
+
+.inf_o_spiske h2 {
+	margin-top: 30px;
+}
+
+.otzivi h2{
+	padding-top:  2em;
+}
+
+
+.slider_otzivi{
+	padding-top: 50px;
+}
+
+.otzivi{
+	text-transform:uppercase;
+}
+/*
+.otzivi img{
+	position:relative;
+bottom:-10px;
+}
+*/
+.blok_inf div{
+margin-top: 30px;
+margin-bottom: 5px;
+padding-bottom: 5px;
+}
+
+.cont4 {
+
+padding-top: 50px;
+color: red;
+
+}
+ /*КЛАССЫ ДЛЯ ИЗМЕНЕНИЯ ВЫСОТЫ КАРТИНОК В ПРЕИМУЩЕСТВАХ*/
+.preim_img1{
+	position:static;
+margin-top: 50px;
+}
+
+.preim_img2{
+	position:static;
+margin-top:  50px;
+}
+
+.preim_img3{
+	position:static;
+margin-top:  70px;}
+
+.preim_img4{
+	position:static;
+margin-top: 90px;
+margin-bottom:40px;
+}
+
+.preim_img5{
+	position:static;
+margin-top:  90px;
+}
+
+.preim_img6{
+	position:static;
+margin-top:  50px;
+}
+
+
+.block_2{
+	padding-top: 0px;
+}
+
+
+.za_schet_chego_img1{
+position: static;
+margin-top: 100px;
+}
+
+.za_schet_chego_img2{
+position: static;	
+}
+
+.za_schet_chego_img3{
+position: static;	
+margin-top: 110px;
+}
+
+.Zagol1{
+
+padding-top: 20px;
+font-size: 2em;
+font-weight : bold;
+}
+
+.Zagol2{
+	padding-top: 30px;
+font-size: 2em;
+font-weight : bold;
+}
+.Zagol3{
+	padding-top: 30px;
+font-size: 2em;
+font-weight : bold;
+}
+.o_comp_v_cifrah{
+	color: red;
+font-size: 45px;
+font-weight: bold;
+}
+
+
+
+
+
+/* КАСТЫЛЬ ДЛЯ ВЕРХНЕГО СКРОЛЛА ====================================================
+@media only screen and (max-device-width: 1090px) { 
+#img-fluid{
+ height: 700px;
+}
+
+.carousel-item img {
+	height: 270px;
+}
+
+.otzivi{
+	color: blue;
+}
+*/
+
+@media only screen and (max-width : 480px){
+.carousel-control-prev, .carousel-control-next{   /* ДОБАВИТЬ СКОР ПО СВАЙПУ ДЛЯ МОБ ВЕРСИИ*/
+		display: none
+}
+
+
+
+}
+@media only screen and (max-device-width: 480px /*до 480*/) {
+
+
+
+
+}	
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+.otzivi{
+	color:red ;
+}
+
+
+.slide_img_1{
+	min-width: 768px;
+	max-width: 991px;
+height: 300px;
+}
+
+
+.preim_img1{
+margin-top:  80px;
+}
+.preim_img4{
+margin-top:  120px;
+}
+
+.preim_img5{
+margin-top:  120px;
+}
+
+
+
+}	
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+
+.preim_img4{
+margin-top:  120px;
+}
+
+.preim_img5{
+margin-top:  150px;
+}
+
+}
